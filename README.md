@@ -12,3 +12,15 @@ We receive satisfactory results from our multiple linear regression model.
 3. The overall p-value is 5.35e-11 which means that the null hypothesis (which is that these variables do not affect the MPG, the chnge is random) can be rejected.
 4. The R-Squared value is 0.715 which states that the linear regression model can be used to predict the MPG based on the independent variables Vehicle Length and Ground Clearance.
 
+## Summary Statistics on Suspension Coil
+
+![image](https://user-images.githubusercontent.com/100053788/174464659-053645b3-95f9-4613-9e31-ae5ef59d6d6a.png)
+
+
+On reviewing the summary for the entire data we can say that the manufacturing data meets the design specifications of having variance of PSI data less than 100 pounds per square inch.
+
+
+![image](https://user-images.githubusercontent.com/100053788/174464916-7879037a-dbf8-4278-9e7f-65b408c06420.png)
+
+
+On reviewing the summary statistics for each manufacturing lot we see that Lot 3 does not meet the design specifications as its variance is 170.286 pounds per square inch, which is more than 100.
