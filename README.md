@@ -2,6 +2,8 @@
 
 ## Linear Regression to Predict MPG
 
+**Summary Statistics for all the independent variables**
+
 ![image](https://user-images.githubusercontent.com/100053788/174461809-5bb80d9c-860a-4712-9327-21b67c45c617.png)
 
 The image shows the results we obtained. 
@@ -35,7 +37,7 @@ On reviewing the summary statistics for each manufacturing lot we see that Lot 3
 
 ![image](https://user-images.githubusercontent.com/100053788/174511919-0c29c73b-70a2-4353-841f-80a1e213faca.png)
 
-**For Lot 2: **
+**For Lot 2:**
 
 ![image](https://user-images.githubusercontent.com/100053788/174511949-fb8c8a81-d230-4bf6-9b88-53abb3666432.png)
 
