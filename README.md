@@ -10,7 +10,8 @@ We receive satisfactory results from our multiple linear regression model.
 1. p-value greater than 0.05 are observed for AWD (All-Wheel Drive), Vehicle Weight and Spoiler Angle, meaning that they are unlikely to provide random amounts of variance to the linear model, unlike Vehicle Length and Ground Clearance.
 2. There is a significant amount of variance in the dependant variable (MPG) when all the independent variables are 0, as p-value for intercept is lower than 0.05. Vehicle Length and Ground Clearance may need scaling to improve predictve power of the model
 3. The overall p-value is 5.35e-11 which means that the null hypothesis (which is that these variables do not affect the MPG, the chnge is random) can be rejected.
-4. The R-Squared value is 0.715 which states that the linear regression model can be used to predict the MPG based on the independent variables Vehicle Length and Ground Clearance.
+4. The R-Squared value is 0.715 which states that the linear regression model can be used to predict the MPG based on the independent variables. It will give accurate predictions 71.5% of the times.
+5. The slope of the linear regression model is not considered to be zero as there is a some relationship between the variables and Milage (MPG)
 
 ## Summary Statistics on Suspension Coil
 
