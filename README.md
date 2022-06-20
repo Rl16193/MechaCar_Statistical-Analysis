@@ -27,24 +27,24 @@ On reviewing the summary statistics for each manufacturing lot we see that Lot 3
 
 ## t-test on suspension coils
 
-For All the lots:
+**For All the lots:**
 
 ![image](https://user-images.githubusercontent.com/100053788/174511852-6db9a4e6-53b7-417e-862f-2e3a0efa37d3.png)
 
-For Lot 1:
+**For Lot 1:**
 
 ![image](https://user-images.githubusercontent.com/100053788/174511919-0c29c73b-70a2-4353-841f-80a1e213faca.png)
 
-For Lot 2: 
+**For Lot 2: **
 
 ![image](https://user-images.githubusercontent.com/100053788/174511949-fb8c8a81-d230-4bf6-9b88-53abb3666432.png)
 
-For Lot 3:
+**For Lot 3:**
 
 ![image](https://user-images.githubusercontent.com/100053788/174512010-7071dd9f-38db-470f-aa4d-21a632f8726c.png)
 
 
-#### Summary
+### Summary
 
 The null hypothesis is that the mean value of 1500 PSI (population mean) and the mean of the sample is the same, there is no difference
 
@@ -53,3 +53,27 @@ The null hypothesis is that the mean value of 1500 PSI (population mean) and the
 3. The p-value of 0.6072 for Lot 2 does not reject the null hypothesis.
 4. The p-value of 0.042 for Lot 3 does rejects the null hypothesis. This means that their means are statistically different. There might be a fault in Lot 3 or the data gathered may require an in depth inspection to resolve the erroronious data if any.
 
+## Study Design: MechaCar vs Competition
+
+MechaCar is planning to bring out a new design of its vehicle. To help with this process we need to gather data from other manufacturers regarding the key metrics to be compared and the statistical tests to help arrive at satisfactory results for the new design.
+
+### Metrics
+
+The metrics involved in this study are:
+
+1. Milage (Fuel Efficiency).
+2. Type of Engine (Deisel, Petrol, Electric, Hybrid).
+3. Vehicular Safety.
+4. Maintanace costs.
+5. Current selling Price.
+6. Vehicular Dimesions (Weight, length, boot size, seats)
+
+### Hypothesis: Null and Alternate
+
+Null Hypothesis (Ho): The MechaCar price and fuel efficiency (Milage) is not statistically different from its competitors.
+Alternative Hypothesis (Ha): The MechaCar price and fuel efficiency (Milage) is statistically different from its competitors.
+
+### Statistical Tests
+
+We can use single and multiple t-tests for the price and milage metrics comparing MechaCar across all manufacturers and each individual ones.
+The data we would need to collect would be vehicle size, costs, type of engine and efficiency to statistically analyze the problem.
