@@ -24,3 +24,32 @@ On reviewing the summary for the entire data we can say that the manufacturing d
 
 
 On reviewing the summary statistics for each manufacturing lot we see that Lot 3 does not meet the design specifications as its variance is 170.286 pounds per square inch, which is more than 100.
+
+## t-test on suspension coils
+
+For All the lots:
+
+![image](https://user-images.githubusercontent.com/100053788/174511852-6db9a4e6-53b7-417e-862f-2e3a0efa37d3.png)
+
+For Lot 1:
+
+![image](https://user-images.githubusercontent.com/100053788/174511919-0c29c73b-70a2-4353-841f-80a1e213faca.png)
+
+For Lot 2: 
+
+![image](https://user-images.githubusercontent.com/100053788/174511949-fb8c8a81-d230-4bf6-9b88-53abb3666432.png)
+
+For Lot 3:
+
+![image](https://user-images.githubusercontent.com/100053788/174512010-7071dd9f-38db-470f-aa4d-21a632f8726c.png)
+
+
+#### Summary
+
+The null hypothesis is that the mean value of 1500 PSI (population mean) and the mean of the sample is the same, there is no difference
+
+1. The p-value of 0.063 for all lots is not significant to reject the null hypothesis.
+2. The p-value of 1 for Lot 1 does not reject the null hypothesis. p-value of 1 states that the mean of the sample is exactly the same of the mean of the population.
+3. The p-value of 0.6072 for Lot 2 does not reject the null hypothesis.
+4. The p-value of 0.042 for Lot 3 does rejects the null hypothesis. This means that their means are statistically different. There might be a fault in Lot 3 or the data gathered may require an in depth inspection to resolve the erroronious data if any.
+
